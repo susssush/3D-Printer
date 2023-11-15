@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+i {
+    font-size: 40px;
+    margin-left: 10px;
+   
+}
+
+i:hover {
+    transform: scale(1.6);
+}
+
+
+/* meduia query for mobile */
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+    }
+
+    #BH {
+        display: none;
+    }
+
+    #headingDiv img {
+        height: 70px;
+    }
+    
+    #headingDiv {
+        display: flex;
+        border-bottom: 1px solid black;
+    }
+    
+    footer {
+        width: 100%;
+        color: #D0A2F7;
+        background-color: lavender;
+        text-align: center;
+    }
+    
+    #serviceDiv {
+        color: white;
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+        border: 1px solid black;
+        font-family: 'Playfair Display', serif;
+        border-radius: 50px;
+        background-image: url("bg5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    hr {
+        width: 90%;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+    
+        
+    }
+
+    form {
+        width: 90%;
+        margin: auto;
+        outline: 1px solid black;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    #registerDiv h1 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+      
+    }   
+    
+    #registerDiv button {
+        margin-right: 10px;
+    }
+
+    #employeeForm{
+       
+        font-family: 'Playfair Display', serif;
+    }
+li{
+    font-size:20px;
+}
+
+
+}
+
+/* Media qurey for Tabs */
+@media (min-width: 601px) and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    #BH {
+        display: none;
+    }
+
+    #headingDiv img {
+        height: 70px;
+    }
+    
+    #headingDiv {
+        display: flex;
+        border-bottom: 1px solid black;
+    }
+    
+    footer {
+        width: 100%;
+        color: #D0A2F7;
+        background-color: lavender;
+        text-align: center;
+    }
+    
+    #serviceDiv {
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        border: 1px solid black;
+        font-family: 'Playfair Display', serif;
+        border-radius: 50px;
+        background-image: url("bg5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+    
+        
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+        outline: 1px solid black;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    #registerDiv h1 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+    }  
+
+    
+
+    #registerDiv button {
+        margin-right: 10px;
+    }
+
+    #employeeForm{
+        font-family: 'Playfair Display', serif;
+    }
+    li{
+    font-size:20px;
+    }
+}
+
+/* media query for laptop and larger screen */
+@media (min-width: 769px) {
+    header {
+        width: 100%;
+    }
+
+    #headingDiv img {
+        height: 90px;
+    }
+    
+    #headingDiv {
+        display: flex;
+        border-bottom: 1px solid black;
+    }
+    
+    footer {
+        width: 100%;
+        color: #D0A2F7;
+        background-color: lavender;
+        text-align: center;
+    }
+
+    #bullhorn {
+        display: flex;
+    }
+    
+    #serviceDiv {
+        color: white;
+        width: 70%;
+        text-align: left;
+        border: 1px solid black;
+        font-family: 'Playfair Display', serif;
+        border-radius: 50px;
+        background-image: url("bg5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+    hr {
+        width: auto;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;      
+    }
+
+    form {
+        background-color: lightgray;
+        width: 45%;
+        outline: 1px solid black;
+        padding: 10px;        
+       
+    }
+
+    #registerDiv h1 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;  
+    } 
+
+    
+
+    #registerDiv button {
+        margin-right: 10px;
+
+    }
+    
+    #members{
+        background-image: url("bg7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2em;
+    }
+
+    li{
+    font-size:20px;
+    }
+}

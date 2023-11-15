@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+   body {
+    margin: 0 auto;
+    overflow-x: hidden;
+   }
+
+
+   i {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+i:hover {
+    transform: scale(1.6);
+}
+
+
+
+/* Media Query for Mobile */
+@media (max-width: 600px) {
+
+/* Header and footer */
+header img {
+    height: 70px;
+}
+
+footer {
+    width: 100%;
+    color:black;
+    background-color: lavender;
+    text-align: center;
+}
+
+
+.parent {
+
+    background-image:url("https://img.freepik.com/premium-vector/hand-drawn-pastel-color-floral-background_323324-589.jpg?w=360");
+     /* width: 600px; */
+     width: 400px;
+  
+     /* height: 700px; */
+     border: 3px solid black;
+     margin: 0 auto;
+     padding: 20px;
+     margin-top: 10px;
+     border-radius: 20px;
+     box-shadow: 0px 10px 8px 0px black;
+   
+     text-align: center;
+ }
+ 
+ h1 {
+     background-color: rgb(225, 223, 223);
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 15px;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0px 15px 8px 0px solid black;
+     font-family: 'Libre Baskerville', serif;
+   
+
+ 
+ }
+ 
+ 
+ .maindiv {
+     background-color:lightskyblue;
+     /* width: 600px; */
+     width:90% ;
+     height: 40vh;
+     cursor: pointer;
+     display: inline-block;
+     margin: 10px;
+ 
+ 
+ 
+ }
+ 
+ .maindiv:hover {
+     transform: scale(1.05);
+ }
+ 
+ .innerchildone {
+     background: linear-gradient(#F5E8B7, #C1D8C3);
+     width: 100%;
+     height: 100%;
+     position: relative;
+     box-shadow: 0px 7px 7px 0px;
+     text-align: center;
+     transform-style: preserve-3d;
+     transition: 0.6s;
+     border-radius: 10px;
+ }
+ 
+ .frontone,
+ .backone {
+     width: 100%; 
+      height: 100%;
+     position: absolute;
+     backface-visibility: hidden;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color: black;
+     font-family: 'Libre Baskerville', serif;
+ }
+ 
+ .frontone {
+     background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     color: white;
+    
+ 
+ }
+ 
+ .backone {
+     background-image: url("https://i.pinimg.com/736x/a5/fd/14/a5fd1405d1c006f79e20d6790ea5b407.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     color: rgb(0, 0, 0);
+     transform: rotateY(180deg);
+     font-family: 'Libre Baskerville', serif;
+ }
+ .maindiv.open .innerchildone {
+     transform: rotateY(180deg);
+ }
+ 
+ h2 {
+     display: flex;
+     justify-content: center;
+     align-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+     border-radius: 30px;
+ }
+ 
+.parent img{
+    width: 150px;
+    height: 35vh;
+    border-radius:80px;
+}
+}
+
+/* Media Query for Tab */
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+
+    /* Header and footer */
+header img {
+    height: 80px;
+   
+}
+
+#headingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+footer {
+    width: 100%;
+    color:black;
+    background-color: lavender;
+    text-align: center;
+}
+
+
+    
+    .parent {
+
+        background-image:url("https://img.freepik.com/premium-vector/hand-drawn-pastel-color-floral-background_323324-589.jpg?w=360");
+         width: 90%;
+         /* height: 700px; */
+         border: 3px solid black;
+         margin: 0 auto;
+         padding: 10px;
+         margin-top: 10px;
+         border-radius: 20px;
+         box-shadow: 0px 10px 8px 0px black;
+       
+         text-align: center;
+     }
+     
+     h1 {
+         background-color: #ffffff;
+         text-align: center;
+         border: 2px solid black;
+         border-radius: 10px;
+         display: flex;
+         align-content: center;
+         justify-content: center;
+         align-items: center;
+         box-shadow: 0px 15px 8px 0px solid black;
+         font-family: 'Libre Baskerville', serif;
+       
+    
+     
+     }
+
+     
+     
+     
+     
+     .maindiv {
+         background-color:lightskyblue;
+         width: 90%;
+         height: 170px;
+         cursor: pointer;
+         display:inline-block;
+         margin: 10px;
+     
+     
+     
+     }
+     
+     .maindiv:hover {
+         transform: scale(1.05);
+     }
+     
+     .innerchildone {
+         background: linear-gradient(#F5E8B7, #C1D8C3);
+         width: 100%;
+         height: 100%;
+         position: relative;
+         box-shadow: 0px 7px 7px 0px;
+         text-align: center;
+         transform-style: preserve-3d;
+         transition: 0.6s;
+         border-radius: 10px;
+     }
+     
+     .frontone,
+     .backone {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         backface-visibility: hidden;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         color: black;
+         font-family: 'Libre Baskerville', serif;
+     }
+     
+     .frontone {
+         background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         color: white;
+        
+     
+     }
+     
+     .backone {
+         background-image: url("https://i.pinimg.com/736x/a5/fd/14/a5fd1405d1c006f79e20d6790ea5b407.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         color: rgb(0, 0, 0);
+         transform: rotateY(180deg);
+         font-family: 'Libre Baskerville', serif;
+     }
+     .maindiv.open .innerchildone {
+         transform: rotateY(180deg);
+     }
+     
+     h2 {
+         display: flex;
+         justify-content: center;
+         align-content: space-around;
+         align-items: center;
+         margin: 0 auto;
+         border-radius: 30px;
+     }
+     
+     .parent img{
+        width: 150px;
+        height: 28vh;
+        border-radius:80px;
+    }
+}
+
+/* Media Query for Laptop and larger screen */
+
+@media (min-width: 769px) {
+
+    /* Header and footer */
+    header img {
+        height: 80px;
+       
+    }
+
+#headingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 55%;
+}
+footer {
+    width: 100%;
+    color:black;
+    background-color: lavender;
+    text-align: center;
+}
+
+
+
+    .parent {
+
+        background-image:url("https://img.freepik.com/premium-vector/hand-drawn-pastel-color-floral-background_323324-589.jpg?w=360");
+         width: 90%;
+         /* height: 700px; */
+         border: 3px solid black;
+         margin: 0 auto;
+         padding: 30px;
+        margin-top: 10px;
+         border-radius: 20px;
+         box-shadow: 0px 10px 8px 0px black;
+       
+         text-align: center;
+     }
+     
+     h1 {
+         background-color: #ffffff;
+         text-align: center;
+         border: 2px solid black;
+         border-radius: 10px;
+         display: flex;
+         align-content: center;
+         justify-content: center;
+         align-items: center;
+         box-shadow: 0px 15px 8px 0px solid black;
+         font-family: 'Libre Baskerville', serif;
+       
+    
+     
+     }
+     
+     
+     .maindiv {
+         background-color:lightskyblue;
+         width: 250px;
+         height: 170px;
+         cursor: pointer;
+         display:inline-block;
+         margin: 10px;
+     
+     
+     
+     }
+     
+     .maindiv:hover {
+         transform: scale(1.05);
+     }
+     
+     .innerchildone {
+         background: linear-gradient(#F5E8B7, #C1D8C3);
+         width: 100%;
+         height: 100%;
+         position: relative;
+         box-shadow: 0px 7px 7px 0px;
+         text-align: center;
+         transform-style: preserve-3d;
+         transition: 0.6s;
+         border-radius: 10px;
+     }
+     
+     .frontone,
+     .backone {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         backface-visibility: hidden;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         color: black;
+         font-family: 'Libre Baskerville', serif;
+     }
+     
+     .frontone {
+         background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         color: white;
+        
+     
+     }
+     
+     .backone {
+         background-image: url("https://i.pinimg.com/736x/a5/fd/14/a5fd1405d1c006f79e20d6790ea5b407.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         color: rgb(0, 0, 0);
+         transform: rotateY(180deg);
+         font-family: 'Libre Baskerville', serif;
+     }
+     .maindiv.open .innerchildone {
+         transform: rotateY(180deg);
+     }
+     
+     h2 {
+         display: flex;
+         justify-content: center;
+         align-content: space-around;
+         align-items: center;
+         margin: 0 auto;
+         border-radius: 30px;
+     }
+     
+     .parent img{
+        width: 130px;
+        height: 28vh;
+        border-radius:80px;
+    }
+}
+
+
+
